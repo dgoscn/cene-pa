@@ -1,38 +1,38 @@
 languageCode = "en-us"
-title = "Aerial"
+title = "Go Diego Go"
 baseurl = "https://dgoscn.github.io/cene-pa/"
 publishDir = "docs"
 theme = "aerial"
 
 [params]
-  name = "Adam Jensen"
-  about = "Security Chief &nbsp;&bull;&nbsp; Cyborg &nbsp;&bull;&nbsp; Never asked for this"
-  copyright = "Untitled"
+  name = "Diego Amaral"
+  about = "Netsuite Developer &nbsp;&bull;&nbsp; Lifelong Learner &nbsp;&bull;&nbsp; Music Lover &nbsp;&bull;&nbsp; I never saw you here ;)"
+  copyright = "diegoamaral"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
   bg_scroll = ""
   favicon = "favicon.ico"
 
 [[params.social]]
-  medium = "Twitter"
-  icon = "twitter"
-  link = "#"
-
-[[params.social]]
   medium = "Facebook"
   icon = "facebook"
-  link = "#"
-
-[[params.social]]
-  medium = "Dribbble"
-  icon = "dribbble"
-  link = "#"
+  link = "https://www.facebook.com/diego.liard3"
 
 [[params.social]]
   medium = "Github"
   icon = "github"
-  link = "#"
+  link = "https://github.com/dgoscn"
 
 [[params.social]]
-  medium = "Email"
-  icon = "envelope-o"
-  link = "#"
+  medium = "Instagram"
+  icon = "instagram"
+  link = "https://www.instagram.com/dje6o/"
+
+[[params.social]]
+  medium = "Twitter"
+  icon = "twitter"
+  link = "https://twitter.com/dgoscn"
+
+[[params.social]]
+  medium = "LinkedIn"
+  icon = "linkedin"
+  link = "https://www.linkedin.com/in/amaraldude/"
