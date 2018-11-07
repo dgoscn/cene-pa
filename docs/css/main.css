@@ -157,10 +157,10 @@
 	}
 
 	#wrapper {
-		-moz-animation: wrapper 3s forwards;
-		-webkit-animation: wrapper 3s forwards;
-		-ms-animation: wrapper 3s forwards;
-		animation: wrapper 3s forwards;
+		-moz-animation: wrapper 1s forwards;
+		-webkit-animation: wrapper 1s forwards;
+		-ms-animation: wrapper 1s forwards;
+		animation: wrapper 1s forwards;
 		height: 100%;
 		left: 0;
 		opacity: 0;
@@ -186,14 +186,15 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: #348cb2 url("images/background.jpg") bottom left;
+		background: #348cb2 url("images/lua.jpg") bottom left;
 		background-repeat: repeat-x;
 		height: 100%;
 		left: 0;
-		opacity: 1;
+		opacity: 5000;
 		position: fixed;
 		top: 0;
 	}
+	
   .no-scroll {
     -moz-animation: none !important;
     -webkit-animation: none !important;
@@ -851,7 +852,7 @@
 		}
 
 		#bg {
-			background-size: 750px auto;
+			background-size: 1300px auto;
 			width: 2250px;
 		} }
 
