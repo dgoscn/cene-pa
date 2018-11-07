@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Aerial"
-baseurl = "http://example.org/"
+baseurl = "https://dgoscn.github.io/cene-pa/"
 publishDir = "docs"
 theme = "aerial"
 
