@@ -1,5 +1,5 @@
 languageCode = "en-us"
-title = "Go Diego Go"
+title = "Diego Go"
 baseurl = "https://dgoscn.github.io/cene-pa/"
 publishDir = "docs"
 theme = "aerial"
