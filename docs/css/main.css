@@ -186,13 +186,14 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: 2500px url("images/lua.jpg");
+		background: 1500px url("images/backa.jpg");
+		
 		background-repeat: round;
-		height: 110%;
+		height: 120%;
 		left: 0;
 		opacity: 1;
 		position: fixed;
-		top: 880;
+		top: 0;
 	}
 	
   .no-scroll {
@@ -938,6 +939,8 @@
 		}
 
 		#bg {
+			
+			
 			background-size: 300px auto;
 			width: 900px;
 		}
