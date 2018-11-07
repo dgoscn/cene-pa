@@ -1,6 +1,7 @@
 languageCode = "en-us"
 title = "Aerial"
 baseurl = "http://example.org/"
+publishDir = "docs"
 theme = "aerial"
 
 [params]
