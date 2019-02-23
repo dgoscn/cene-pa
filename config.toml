@@ -6,10 +6,10 @@ theme = "aerial"
 
 [params]
   name = "Diego Amaral"
-  about = "Netsuite Developer &nbsp;&bull;&nbsp; Lifelong Learner &nbsp;&bull;&nbsp; Nerd Sometimes &nbsp;&bull;&nbsp; I never saw you here ;)"
+  about = "Netsuite Developer &nbsp;&bull;&nbsp; Lifelong Learner &nbsp;&bull;&nbsp; Nerd Sometimes &nbsp;&bull;&nbsp; another site is comming ;)"
   copyright = "diegoamaral"
   #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
-  bg_scroll = ""
+  bg_scroll = "stop"
   favicon = "favicon.ico"
 
 [[params.social]]
