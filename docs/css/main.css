@@ -188,7 +188,7 @@
 
 		background: 1500px url("images/backg.jpg");
 		
-		background-repeat: none;
+		/*background-repeat: none;*/
 		height: 150%;
 		left: 0;
 		opacity: 1;
