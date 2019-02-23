@@ -186,9 +186,9 @@
 		transform: translate3d(0,0,0);
 	/* Set your background with this */
 
-		background: 1500px url("images/backa.jpg");
+		background: 1500px url("images/backg.jpg");
 		
-		background-repeat: round;
+		background-repeat: none;
 		height: 150%;
 		left: 0;
 		opacity: 1;
