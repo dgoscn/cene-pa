@@ -3,9 +3,9 @@
 languageCode = "en-us"
 title = "GoDieGo"
 theme = "hugo-highlights-theme"
-
+publishDir = "docs"
 # Enter your tracking code to enable Google analytics
-googleAnalytics = ""
+#googleAnalytics = ""
 
 [params]
 
@@ -16,8 +16,8 @@ googleAnalytics = ""
 
   # To provide more meta data for search engings feel free to add a few informations.
   # This lines will be inserted as meta tags.
-  name = "Your Name"
-  description = "Your Description"
+  name = "Diego Amaral"
+  description = "This site is just a minimal"
 
   # For a static site it's not possible to provide a contact form. The contact form uses
   # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email
@@ -30,7 +30,7 @@ googleAnalytics = ""
   # - send a dummy email to yourself to confirm your account
   # - click the confirmation link in the email from www.formspree.io
   # - That's all. Enjoy mailing!
-  email = "your@mail.com"
+  email = "diego.amar4l@gmail.com"
 
   # If this param is set to true, every section gets an own background image (located at static/images)
   # to change the image you could use the param picture on every section.
