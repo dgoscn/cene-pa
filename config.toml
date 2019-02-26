@@ -59,7 +59,7 @@ publishDir = "docs"
     id = "skills"
     type = "list"
     title = "Stuff I do"
-    description = "I am actually working with Netsuite Development. I develop some scripts using JavaScript, creating some objects and some items making his communication with our API written in C# that communicates with Avalara Bundle."
+    description = "I am actually working with Netsuite Development. I develop some scripts using JavaScript, creating some objects and some items, making his communication with our API written in C# that communicates with Avalara Bundle."
     buttontext = "next"
     # the picture is stored at static/images/
     picture = "pic02.jpg"
@@ -70,7 +70,7 @@ publishDir = "docs"
 
     [[params.block.item]]
       icon = "fa-calendar-check-o"
-      title = "sense of hour"
+      title = "sense of time"
 
     [[params.block.item]]
       icon = "fa-code"
