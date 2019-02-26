@@ -1,38 +1,151 @@
+# Site settings
+
 languageCode = "en-us"
-title = "Diego Go"
-baseurl = "https://dgoscn.github.io/cene-pa/"
-publishDir = "docs"
-theme = "aerial"
+title = "GoDieGo"
+theme = "hugo-highlights-theme"
+
+# Enter your tracking code to enable Google analytics
+googleAnalytics = ""
 
 [params]
-  name = "Diego Amaral"
-  about = "Netsuite Developer &nbsp;&bull;&nbsp; Lifelong Learner &nbsp;&bull;&nbsp; Nerd Sometimes &nbsp;&bull;&nbsp; another site is comming ;)"
-  copyright = "diegoamaral"
-  #Disable the scrolling background by entering any string for bg_scroll. Enable by leaving bg_scroll empty.
-  bg_scroll = ","
-  favicon = "favicon.ico"
 
-[[params.social]]
-  medium = "Facebook"
-  icon = "facebook"
-  link = "https://www.facebook.com/diego.liard3"
+  # You can use Markdown for urls [text](//domain.tld/source)
+  #
+  # All icons using Fontawesom's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+  # for more icons.
 
-[[params.social]]
-  medium = "Github"
-  icon = "github"
-  link = "https://github.com/dgoscn"
+  # To provide more meta data for search engings feel free to add a few informations.
+  # This lines will be inserted as meta tags.
+  name = "Your Name"
+  description = "Your Description"
 
-[[params.social]]
-  medium = "Instagram"
-  icon = "instagram"
-  link = "https://www.instagram.com/dje6o/"
+  # For a static site it's not possible to provide a contact form. The contact form uses
+  # www.formspree.io as a proxy. The form makes a Post request to their servers to send an email
+  # Visitors can send up to a 1000 emails each month
+  #
+  # How to setup formspree
+  #
+  # - set your email address under 'email' below
+  # - upload the generated site to your server
+  # - send a dummy email to yourself to confirm your account
+  # - click the confirmation link in the email from www.formspree.io
+  # - That's all. Enjoy mailing!
+  email = "your@mail.com"
 
-[[params.social]]
-  medium = "Twitter"
-  icon = "twitter"
-  link = "https://twitter.com/dgoscn"
+  # If this param is set to true, every section gets an own background image (located at static/images)
+  # to change the image you could use the param picture on every section.
+  # If it's disabled you could change the background to overwrite the bg.jpg and overlay.png to set the background.
+  backgroundpersection = true
 
-[[params.social]]
-  medium = "LinkedIn"
-  icon = "linkedin"
-  link = "https://www.linkedin.com/in/amaraldude/"
+  # hero Section
+  [params.hero]
+    type = "hero"
+    title = "DIEGO AMARAL"
+    description = "ALWAYS TRYING SOMETHING NEW"
+    buttontext = "SOME OF"
+
+  # about section
+  [[params.block]]
+    id = "about"
+    type = "text"
+    title = "Who am I"
+    description = "I am information tech guy that thinks that the world it is just a line that many people follows and I am one of those who doesn't follows these kind of line, I prefer a bifurcation. Besides, I am a 'Pernambucano' living in São Paulo - Brazil"
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic01.jpg"
+
+  # skill section
+  [[params.block]]
+    id = "skills"
+    type = "list"
+    title = "Stuff I do"
+    description = "I am actually working with Netsuite Development. I develop some scripts using JavaScript, creating some objects and some items making his communication with our API written in C# that communicates with Avalara Bundle."
+    buttontext = "next"
+    # the picture is stored at static/images/
+    picture = "pic02.jpg"
+
+    [[params.block.item]]
+      icon = "fa-bicycle"
+      title = "Bike Sometimes"
+
+    [[params.block.item]]
+      icon = "fa-calendar-check-o"
+      title = "sense of hour"
+
+    [[params.block.item]]
+      icon = "fa-code"
+      title = "Coding Everyday"
+
+    [[params.block.item]]
+      icon = "fa-coffee"
+      title = "Coffe Everyday"
+
+  # infos section
+  [[params.block]]
+    id = "infos"
+    type = "text"
+    title = "One more thing"
+    description = "I am currently studying and improving my skills in front end. I’ve been studying a lot of React and Redux using Webpack in some situations. I try to use NodeJS, TypeScript and Tests. I like Mobile Development, I started with Xamarin, but nowadays, I am learning with React Native" 
+    # the picture is stored at static/images/
+    picture = "pic03.jpg"
+  
+#  # custom section
+#  [[params.block]]
+#    id = "important"
+#    # to make custom section copy <theme>/layouts/partials/text.html to /layouts/partials/custom.html and edit it according to your needs.
+#    type = "custom"
+#    title = "Don't forget"
+#    description = "I started an app in Xamarin, but I found React Native and I started develop with it just because I reached that it is more elegant. Nothing against "Xamarin Guys"
+#    # the picture is stored at static/images/
+#    picture = "pic04.jpg"
+
+  # contact form
+  [[params.block]]
+    id = "contact"
+    type = "contact"
+    title = " I HOPE THAT SOMEONE GETS MY"
+    picture = "pic05.jpg"
+
+    [params.block.form]
+      name = "Name"
+      email = "Your Email"
+      message = "Your Message"
+      buttontext = "Message in a bottle"
+      
+
+  # footer section
+  # this section includes last block and social icons
+
+  [params.footer]
+    enable = true
+    
+
+    # social icons
+    [params.footer.social_list]
+      enable = true
+     
+      [[params.footer.social]]
+        title = "Facebook"
+        icon = "fa-facebook"
+        link = "https://www.facebook.com/diego.liard3"
+
+      [[params.footer.social]]
+        title = "Instagramm"
+        icon = "fa-instagram"
+        link = "https://www.instagram.com/dje6o/"
+
+      [[params.footer.social]]
+        title = "Linkedin"
+        icon = "fa-linkedin"
+        link = "https://www.linkedin.com/in/amaraldude/"
+
+    # copyright
+    #[params.footer.copyright.notice]
+
+      [[params.footer.copyright.notice]]
+        text = "© diegoamaral"
+
+      [[params.footer.copyright.notice]]
+        text = "Design: hugothemes"
+
+     
