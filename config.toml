@@ -49,7 +49,7 @@ publishDir = "docs"
     id = "about"
     type = "text"
     title = "Who am I"
-    description = "I am information tech guy that thinks that the world it is just a line that many people follows and I am one of those who doesn't follows these kind of line, I prefer a bifurcation. Besides, I am a 'Pernambucano' living in São Paulo - Brazil"
+    description = "I am an information tech guy that thinks that the world it is just a line that many people follows and I am one of those who doesn't follows these kind of line, I prefer a bifurcation. Besides, I am a 'Pernambucano' living in São Paulo - Brazil"
     buttontext = "next"
     # the picture is stored at static/images/
     picture = "pic01.jpg"
